@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="stock_info" content="width=device-width,initial-scale=1.0">
+<title>Stock Info</title>
+<link rel="stylesheet"  href="style33.css">
+<script src="table2excel.js"></script>
+
+</head>
+
+<body>
+<header>
+
+<h1 class="titre"> STOCK INFORMATIQUE </h1>
+
+ 
+   <ul>
+     <li><a href="file:///C:/Users/amarj/Desktop/monAPP/stock/index3.html" class="active">PCp <img src="C:\Users\amarj\Desktop\monAPP\images/laptop.png" width="25px"> </a></li>
+     <li><a href="file:///C:/Users/amarj/Desktop/monAPP/stock/index4.html">PCb<img src="C:\Users\amarj\Desktop\monAPP\images/pc.png" width="25px">   </a></li>
+     <li><a href="file:///C:/Users/amarj/Desktop/monAPP/stock/index5.html">composant<img src="C:\Users\amarj\Desktop\monAPP\images/keyboard-and-mouse.png" width="25px">  </a></li>
+   </ul>
+
+</header>
+
+ 
+
+   <div class="searchb">
+         <input onkeyup="searchData(this.value)" type="text" id="search"  placeholder="search...."> </input>
+		 <button onclick="getsearchMood(this.id)" id="byutili">by Nom Utilisateur</button>
+		 <button onclick="getsearchMood(this.id)" id="byser">by serial Number</button>
+   </div>
+   
+   <form>
+   <div class="formulaire">
+   <div class="user">
+
+			 <label for="nom">Nom </label>  <br><input type="text" placeholder=" nom&prénom" id="nom"></input>
+       <br><br> <label for="direction"> Direction/Service:</label><br> <input type="text" placeholder=" Direction/Service" id="direction"></input>
+      <br><br><label for="site">Activité/Site:</label><br> <input type="text" placeholder=" Activité/Site" id="site"></input>
+	</div >
+	<div class="info">
+     <label>Model de PC: </label><br><input type="text" placeholder=" Model de PC" id="materiel"></input>
+	 <br><br><label>Date d'opération: </label><br><input type="datetime" placeholder=" Date" id="datee"></input>
+	  <br><br>  <label for="etat">etat d'opération:</label><br>
+	              <select id="etat"class="formu">
+				    <option>Nouvelle  Affectation </option>
+				    <option>Restitution </option>
+				    <option> Changement </option>
+				     
+				  </select>
+	   <br><br> <label>S/N:</label><br><input type="text" placeholder=" serial number" id="serial"></input>
+		</div>
+		
+		<div class="dec">
+	 <br><br> <label > Description:</label><br><textarea type="text" placeholder="  Description" id="desc"></textarea> 
+	  </div>
+	  </div>
+	 
+	   <br><button id="ajouter"><h3>Enregistrer<h3></button>
+	   </form>
+	   <button id="toExcel"><img src=" C:/Users/amarj/Desktop/monAPP/images/xls.png" width=40px ></button>
+	   <table id="exTable">
+	     <thead>
+	        <tr>
+			    <th>Nom</th>
+			    <th>Direction/Service</th>
+			    <th>Activité/Site</th>
+			    <th>Model de PC</th>
+			    <th>date</th>
+			    <th>etat d'opération</th>
+			    <th>serial number</th>
+			   
+			    <th>Description</th>
+			    
+			</tr>
+	   </thead>
+	      <tbody id="tbody">
+		      
+		  </tbody>
+	    </table>
+		
+		
+		<script src="javascript3.js"> </script>
+
+
+</body>
+</html>

@@ -1,0 +1,202 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: system-ui;
+
+}
+
+body {
+	background: #E0E0E0;
+}
+
+header {
+	display: flex;
+	padding: 20px;
+	box-shadow: 5px 5px 5px #bbbb;
+	background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(27, 86, 168, 1) 26%, rgba(0, 212, 255, 1) 100%);
+	box-shadow: 0px 5px 15px rgba(27, 86, 168, 1);
+	position: sticky;
+	top: 0;
+	left: 0;
+
+}
+
+header .titre {
+	color: white;
+
+}
+
+header ul {
+	display: flex;
+	margin-left: 40%;
+	list-style: none;
+	margin-top: 15px;
+}
+
+header ul a {
+	display: inline-block;
+	padding: 5px;
+	text-decoration: none;
+	color: white;
+	font-family: italic, simple;
+	font-size: 1.2em;
+	border-radius: 6px;
+}
+
+header ul li {
+	position: relative;
+	padding-left: 35px;
+
+}
+
+header ul li :hover,
+.active {
+	color: black;
+	border: 1px solid white;
+	border-radius: 10px;
+}
+
+header ul a :hover {
+	border: none;
+}
+
+.searchb {
+	margin-left: 80%;
+}
+
+.searchb input {
+	height: 29px;
+	width: 220px;
+	border: 1px solid #1E90FF;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	border-radius: 6px;
+}
+
+.searchb button {
+	border: 2px solid #1E90FF;
+	background: #87CEFA;
+	color: white;
+	height: 30px;
+	border-radius: 6px;
+}
+
+.searchb button:hover {
+	background: #00BFFF;
+	border: 2px solid gray;
+}
+
+form {
+
+	margin: 200px 200px;
+	margin-top: 30px;
+	width: 900px;
+	background-color: #b8c6db;
+	background-image: linear-gradient(100deg, #b8c6db 100%);
+	text-align: center;
+	box-shadow: 15px 15px 15px #bbbb;
+	border-radius: 15px;
+}
+
+form .user,
+form .info {
+	display: inline-table;
+
+}
+
+form .info {
+	margin-left: 100px;
+
+}
+
+form input,
+.formu {
+	width: 300px;
+	height: 35px;
+	border: 1px solid #00BFFF;
+	border-radius: 6px;
+
+}
+
+form .dec {
+
+	margin-right: 405px;
+	margin-top: -30px;
+}
+
+form #desc {
+	border: 1px solid #00BFFF;
+	border-radius: 6px;
+	width: 300px;
+	height: 35px;
+}
+
+form input:focus {
+	background: #F8F8F8;
+	font-size: 1em;
+	font-family: Verdana, system-ui;
+}
+
+#ajouter {
+	color: white;
+	width: 20%;
+	margin-left: 50px;
+	height: 40px;
+	background: #1E90FF;
+	border-radius: 16px;
+	transition: 0.5s;
+}
+
+#ajouter:hover {
+	background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(27, 86, 168, 1) 26%, rgba(0, 212, 255, 1) 100%);
+	letter-spacing: 1px;
+
+}
+
+#toExcel {
+
+	margin-left: 1250px;
+	background: white;
+	border: 2px solid green;
+	transition: 0.5s;
+}
+
+#toExcel:hover {
+	transform: scale(1.1);
+}
+
+table {
+	width: 98%;
+	text-align: center;
+	border: 2px double green;
+	margin: 5px;
+
+}
+
+table thead {
+	background-color: #ef4444;
+}
+
+table th {
+	text-transform: uppercase;
+
+}
+
+th,
+td {
+	padding: 6px;
+
+	border: 1px solid #1E90FF;
+
+}
+
+td {
+	background-color: white;
+}
+
+table td button {
+	background-color: white;
+	border: none;
+
+
+}

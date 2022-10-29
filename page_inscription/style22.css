@@ -1,0 +1,143 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	font-family: Verdana;
+}
+
+body {
+	background-image: url("C:/Users/amarj/Desktop/monAPP/images/werkansicht-1.jpg");
+	background-size: cover;
+
+
+}
+
+header {
+	background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(27, 86, 168, 1) 26%, rgba(0, 212, 255, 1) 100%);
+
+	height: 170px;
+	color: white;
+
+}
+
+header .titre1 {
+	display: flex;
+	margin-left: 10px;
+
+}
+
+header .titre2 {
+	margin-left: 50px;
+	margin-top: 20px;
+
+}
+
+header #semititre {
+	margin-left: 10px;
+	background: white;
+	color: rgba(0, 212, 255, 1);
+	border-radius: 10px;
+
+}
+
+header .imgheader {
+	margin-top: -120px;
+	margin-left: 1020px;
+
+}
+
+.form1 {
+
+	margin-left: 410px;
+	background-color: rgba(27, 86, 168, 1);
+	background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+	width: 500px;
+	margin-top: 20px;
+	border-radius: 20px;
+	text-align: center;
+	height: 410px;
+}
+
+.form1 input,
+label {
+	display: flex;
+	margin-left: 100px;
+	width: 300px;
+	color: white;
+
+}
+
+.form1 input {
+	border-radius: 16px;
+	background: #F4F6F7;
+	height: 40px;
+	border: 2px solid green;
+	transition: 0.5s;
+	color: black;
+}
+
+.form1 h2 {
+	text-align: center;
+	background-color: #a8eb12;
+	color: white;
+	font-size: 40px;
+	border-radius: 16px;
+
+
+}
+
+.form1 .labell {
+	text-align: center;
+	margin-left: 110px;
+}
+
+.form1 button {
+	margin-top: 20px;
+	width: 100px;
+	height: 30px;
+	border-radius: 10px;
+	font-family: serif;
+	color: white;
+	font-size: 16px;
+	transition: 0.5s;
+}
+
+.buttonform {
+	display: flex;
+	margin-left: 139px;
+
+}
+
+.form1 .retour {
+	margin-top: 30px;
+	color: rgba(0, 212, 255, 1);
+	transition: 0.5s;
+
+
+}
+
+.form1 #inscrire {
+	background-color: #a8eb12;
+
+}
+
+.form1 #annuler {
+	background-color: #051937;
+	margin-left: 20px;
+
+}
+
+.form1 input:focus {
+	transform: scale(1.1);
+	background: #F4F6F7;
+	color: black;
+
+}
+
+.form1 button:hover {
+	cursor: pointer;
+	transform: scale(1.1);
+}
+
+.form1 .retour:hover {
+	transform: scale(1.1);
+}
